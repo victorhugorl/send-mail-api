@@ -1,0 +1,16 @@
+*.pyc
+.venv*
+.vscode
+.mypy_cache
+.coverage
+htmlcov
+/coverage.xml
+venv
+.env
+dist
+test.py
+
+docs/site
+
+.DS_Store
+.idea
