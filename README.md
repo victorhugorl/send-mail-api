@@ -41,5 +41,27 @@ python manage.py runserver
 ```
 Ele irá rodar na porta padrão django :8000
 
-## Rotas definidas
+* Para testar basta abrir o navegador na seguinte rota `localhost:8000/api/hello`
+
+e irá aparecer a mensagem "Hello World" no seu navegador
+
+## Endpoints
+A api possui as seguintes rotas:
+`/api/hello` para teste de funcionamento do abiente
+`/api/mail` para a funcionalidade devida
+
+### Objeto a ser enviado
+O padrão para o objeto é o seguinte:
+```json
+{
+ "subject": "Assunto do seu E-mail",
+ "msg": "Html Completo do corpo do seu E-mail"
+ "mailto": "example@gmail.com" 
+}
+```
+Subject: Assunto do email propriamente dito
+msg: mensagem a ser enviada ( está aceitando html como padrão para mais personalização)
+mailto: email da pessoa que deseja mandar o email
+
+
 
