@@ -56,12 +56,14 @@ O padrão para o objeto é o seguinte:
 {
  "subject": "Assunto do seu E-mail",
  "msg": "Html Completo do corpo do seu E-mail"
- "mailto": "example@gmail.com" 
+ "mailto": [
+    "example@gmail.com"
+] 
 }
 ```
 * Subject: Assunto do email propriamente dito
 * msg: mensagem a ser enviada ( está aceitando html como padrão para mais personalização)
-* mailto: email da pessoa que deseja mandar o email
+* mailto: lista de strings de emails de pessoas que  você deseja enviar mensagem
 
 
 
