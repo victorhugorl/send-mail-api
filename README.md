@@ -29,7 +29,7 @@ source venv/bin/activate
 ```
 no Windows
 ```powershell
-./venv/scrpipts/activate
+.\venv\scrpipts\activate
 ```
 * Logo após intalar os pacotes necessários
 ```bash
