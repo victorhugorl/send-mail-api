@@ -1,4 +1,4 @@
-fetch("http://localhost:8000/api/mail", {
+fetch("https://victorlimasg.pythonanywhere.com/api/mail", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
@@ -51,7 +51,7 @@ fetch("http://localhost:8000/api/mail", {
   <table class="email-container" cellspacing="0" cellpadding="0">
     <tr>
       <td class="header">
-        <h1>Victor Hugo mandou, a multidão abalou!</h1>
+        <h1>testando a API em deploy</h1>
       </td>
     </tr>
     <tr>
