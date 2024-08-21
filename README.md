@@ -59,9 +59,9 @@ O padrão para o objeto é o seguinte:
  "mailto": "example@gmail.com" 
 }
 ```
-Subject: Assunto do email propriamente dito
-msg: mensagem a ser enviada ( está aceitando html como padrão para mais personalização)
-mailto: email da pessoa que deseja mandar o email
+* Subject: Assunto do email propriamente dito
+* msg: mensagem a ser enviada ( está aceitando html como padrão para mais personalização)
+* mailto: email da pessoa que deseja mandar o email
 
 
 
