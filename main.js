@@ -1,4 +1,4 @@
-fetch("https://victorlimasg.pythonanywhere.com/api/mail", {
+fetch("http://127.0.0.1:8000/api/mail", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
@@ -70,7 +70,7 @@ fetch("https://victorlimasg.pythonanywhere.com/api/mail", {
 </body>
 </html>
 `,
-    mailto: "victorlimasg@outlook.com",
+    mailto: ["victorlimasg@outlook.com"],
   }),
 })
   .then((response) => {

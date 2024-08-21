@@ -1,12 +1,8 @@
-from ninja import NinjaAPI, Schema
+from ninja import NinjaAPI
 from .email_utils import send_html_email
+from .email import Email
 
 
-
-class Email(Schema):
-    subject: str
-    msg_html: str
-    mailto: list
 
 api = NinjaAPI()
 
