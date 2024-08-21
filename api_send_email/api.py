@@ -6,7 +6,7 @@ from .email_utils import send_html_email
 class Email(Schema):
     subject: str
     msg_html: str
-    mailto: str
+    mailto: list
 
 api = NinjaAPI()
 
